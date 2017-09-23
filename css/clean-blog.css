@@ -30,9 +30,9 @@ a {
   transition: all 0.2s; }
   a:focus, a:hover {
     color: #0085A1; }
-
-a img:focus, a img:hover {
-  cursor: zoom-in; }
+  a:visited, a:active, a:link, a:focus, a:hover{
+    outline: none; }
+}
 
 blockquote {
   font-style: italic;

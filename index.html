@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title>TimepixCam - BNL Fast Imaging Lab</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/clean-blog.css" rel="stylesheet">
 
   </head>
 
@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.html">TimepixCam</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -41,8 +41,15 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="post.html">Sample Post</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Project #1</a>
+                <a class="dropdown-item" href="#">Project #2</a>
+                <a class="dropdown-item" href="#">Project #3</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -58,77 +65,119 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Clean Blog</h1>
-              <span class="subheading">A Blog Theme by Start Bootstrap</span>
+              <h1>TimepixCam</h1>
+              <span class="subheading">Fast novel visible light detector system </span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
+    <!-- Main Content col-xs-offset-1-->
+    <div class="container section ">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Man must explore, and this is exploration at its greatest
-              </h2>
-              <h3 class="post-subtitle">
-                Problems look mighty small from 150 miles up
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 24, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-              </h2>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on September 18, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Science has not yet mastered prophecy
-              </h2>
-              <h3 class="post-subtitle">
-                We predict too much for the next year and yet far too little for the next ten.
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on August 24, 2017</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">
-                Failure is not an option
-              </h2>
-              <h3 class="post-subtitle">
-                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-              </h3>
-            </a>
-            <p class="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
-              on July 8, 2017</p>
-          </div>
-          <hr>
-          <!-- Pager -->
-          <div class="clearfix">
-            <a class="btn btn-secondary float-right" href="#">Older Posts &rarr;</a>
-          </div>
+        <div class = "col-12">
+          <p>
+            Text to be written in general about the camera.
+          </p>
         </div>
       </div>
+
+      <div class="row text-center">
+        <div class = "col-12 mx-auto">
+          <h2>Projects</h2>
+          <hr class="col-12">
+        </div>
+      </div>
+
+      <div class="panel-group " id="accordion" >
+
+        <div class="row" aria-multiselectable="false">
+
+          <div class="col-4 mx-auto" id="headingOne">
+            <h4 class="text-center">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <img src="http://i.imgur.com/gHDJC06.jpg" class="img-responsive col-12 d-none d-sm-block" alt="">
+                <p>Project #1</p>
+              </a>
+            </h4>
+          </div>
+
+          <div class="col-4 mx-auto" id="headingTwo">
+            <h4 class="text-center">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <img src="http://i.imgur.com/gHDJC06.jpg" class="img-responsive col-12 d-none d-sm-block" alt="">
+                  <p>Project #2</p>
+              </a>
+            </h4>
+          </div>
+
+          <div class="col-4 mx-auto" id="headingThree">
+            <h4 class="text-center">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <img src="http://i.imgur.com/gHDJC06.jpg" class="img-responsive col-12 d-none d-sm-block" alt="">
+                <p>Project #3</p>
+              </a>
+            </h4>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+            <div class="post-preview">
+              <a href="post.html">
+                <h3 class="post-title">
+                  Project #1
+                </h3>
+              </a>
+              <p>
+                Information about the first one, which should be finished by something like.. <a href="post.html"> Read more </a>
+              </p>
+            </div>
+          </div>
+
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+            <div class="post-preview">
+              <a href="post.html">
+                <h3 class="post-title">
+                  Project #2
+                </h3>
+              </a>
+              <p>
+                Information about the second one, which should be finished by something like.. <a href="post.html"> Read more </a>
+              </p>
+            </div>
+          </div>
+
+          <div id="collapseThree" class="panel-collapse collapse" aria-labelledby="headingThree">
+            <div class="post-preview">
+              <a href="post.html">
+                <h3 class="post-title">
+                  Project #3
+                </h3>
+              </a>
+              <p>
+                Information about the last one, which should be finished by something like.. <a href="post.html"> Read more </a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class = "col-12 mx-auto">
+          <h2>Papers</h2>
+          <hr class="col-12">
+        </div>
+      </div>
+
+      <ul>
+        <li> First paper </li>
+        <li> Second paper </li>
+      </ul>
+
     </div>
 
     <hr>
@@ -159,12 +208,12 @@
                 <a href="#">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
+            <p class="copyright text-muted">Copyright &copy; BNL, Upton, NY 2017</p>
           </div>
         </div>
       </div>
