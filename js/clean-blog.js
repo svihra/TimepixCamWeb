@@ -39,3 +39,18 @@
   }
 
 })(jQuery); // End of use strict
+
+$(function () {
+  // reverse the list
+  // count the total number of <li>'s
+  var count = $('#hiddenlist li').length;
+  // loop through each <li> and set value to a decreasing value of count
+  $('#hiddenlist li').each(function() {
+      $(this).attr("value", count--);
+  });
+
+  // hide elements
+  if ($('#hiddenlist li:visible').length > 2) {
+        $('#hiddenlist li:visible').slice(2,$('#hiddenlist li').length).hide();
+    }
+});
