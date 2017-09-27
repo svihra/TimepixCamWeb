@@ -39,9 +39,3 @@
   }
 
 })(jQuery); // End of use strict
-
-$(function () {
-    if ($('#datalist li:visible').length > 2) {
-        $('#datalist li:visible').slice(2,$('#datalist li').length).hide();
-    }
-});

@@ -353,3 +353,7 @@ footer {
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
+
+#hiddenlist li:nth-of-type(n+3) {
+  display: none;
+}
