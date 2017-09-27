@@ -39,9 +39,23 @@ blockquote {
   color: #777777; }
 
 .section-heading {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
-  margin-top: 60px; }
+  margin-top: 20px; }
+
+.section-subheading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px; }
+
+@media only screen and (min-width: 768px) {
+  .section-heading {
+    font-size: 50px;
+  }
+  .section-subheading {
+    font-size: 30px;
+  }
+}
 
 .caption {
   font-size: 14px;
@@ -153,58 +167,63 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white; }
+@media only screen and (min-width: 768px) {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 200px 0 150px;
-    color: white; }
-    @media only screen and (min-width: 768px) {
-      header.masthead .page-heading,
-      header.masthead .post-heading,
-      header.masthead .site-heading {
-        padding: 200px 0; } }
-  header.masthead .page-heading,
-  header.masthead .site-heading {
-    text-align: center; }
-    header.masthead .page-heading h1,
-    header.masthead .site-heading h1 {
-      font-size: 50px;
-      margin-top: 0; }
-    header.masthead .page-heading .subheading,
-    header.masthead .site-heading .subheading {
-      font-size: 24px;
-      font-weight: 300;
-      line-height: 1.1;
-      display: block;
-      margin: 10px 0 0;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    @media only screen and (min-width: 768px) {
-      header.masthead .page-heading h1,
-      header.masthead .site-heading h1 {
-        font-size: 80px; } }
+    padding: 200px 0; } }
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center; }
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 40px;
+  margin-top: 0; }
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px; } }
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading .subheading,
+  header.masthead .site-heading .subheading {
+    font-size: 24px; } }
+
+header.masthead .post-heading h1 {
+  font-size: 35px; }
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block; }
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif; }
+header.masthead .post-heading .meta a {
+  color: white; }
+@media only screen and (min-width: 768px) {
   header.masthead .post-heading h1 {
-    font-size: 35px; }
-  header.masthead .post-heading .meta,
+    font-size: 55px; }
   header.masthead .post-heading .subheading {
-    line-height: 1.1;
-    display: block; }
-  header.masthead .post-heading .subheading {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 10px 0 30px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  header.masthead .post-heading .meta {
-    font-size: 20px;
-    font-weight: 300;
-    font-style: italic;
-    font-family: 'Lora', 'Times New Roman', serif; }
-    header.masthead .post-heading .meta a {
-      color: white; }
-  @media only screen and (min-width: 768px) {
-    header.masthead .post-heading h1 {
-      font-size: 55px; }
-    header.masthead .post-heading .subheading {
-      font-size: 30px; } }
+    font-size: 30px; } }
 
 .post-preview > a {
   color: #333333; }
@@ -352,4 +371,12 @@ footer {
 
 .dropdown:hover>.dropdown-menu {
   display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    body{font-size: 20px;}
+}
+
+@media only screen and (max-width: 768px) {
+    body{font-size: 16px;}
 }
