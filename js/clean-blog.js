@@ -43,6 +43,14 @@
 $(function () {
   // reverse the list
   // count the total number of <li>'s
+  var count = $('#combinedlist li').length;
+  // loop through each <li> and set value to a decreasing value of count
+  $('#combinedlist li').each(function() {
+      $(this).attr("value", count--);
+  });
+
+  // reverse the list
+  // count the total number of <li>'s
   var count = $('#hiddenlist li').length;
   // loop through each <li> and set value to a decreasing value of count
   $('#hiddenlist li').each(function() {
