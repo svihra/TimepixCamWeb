@@ -1,0 +1,2 @@
+document.write("<li> M. Fisher-Levine, R. Boll, F. Ziaee, C. Bomme, B. Erk, D. Rompotis, T. Marchenko, A. Nomerotski and D. Rolles: <em>'Time-Resolved Ion Imaging at Free-Electron Lasers Using TimepixCam'</em>. IUCr macros version 2.1.10 (2016). </li>")
+document.write("<li> M. Fisher-Levine and A. Nomerotski: <em>'TimepixCam: a fast optical imager with time-stamping'</em>. JINST 11 (2016) C03016. </li>")
