@@ -44,7 +44,7 @@ blockquote {
   margin-top: 24px; }
 
 .section-subheading {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   margin-top: 10px; }
 
@@ -53,7 +53,7 @@ blockquote {
     font-size: 50px;
   }
   .section-subheading {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
