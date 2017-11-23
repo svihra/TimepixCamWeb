@@ -1,3 +1,0 @@
-document.write('<p> We describe a novel fast optical imager, TimepixCam, based on an optimized silicon pixel sensor with a thin entrance window, read out by a Timepix ASIC. ')
-document.write('TimepixCam is able to record and time-stamp light flashes in excess of 1,000 photons with high quantum efficiency in the 400–1000nm wavelength range with 20ns timing resolution, corresponding to an effective rate of 50 Megaframes per second. ')
-document.write('The camera was used for imaging ions impinging on a microchannel plate followed by a phosphor screen. Possible applications include spatial and velocity map imaging of ions in time-of-flight mass spectroscopy; coincidence imaging of ions and electrons, and other time-resolved types of imaging spectroscopy.<\p>')
