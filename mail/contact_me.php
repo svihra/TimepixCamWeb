@@ -21,6 +21,6 @@ $email_body = "You have received a new message from TpxCam website contact form.
 $headers = "From: noreply@tpxcam.org\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($toPeter,$email_subject,$email_body,$headers);
-#mail($toAndrei,$email_subject,$email_body,$headers);
+mail($toAndrei,$email_subject,$email_body,$headers);
 return true;
 ?>
