@@ -1,0 +1,1 @@
+document.write("<li> M. Fisher-Levine, R. Boll, F. Ziaee, C. Bomme, B. Erk, D. Rompotis, T. Marchenko, A. Nomerotski and D. Rolles: <em>'Time-Resolved Ion Imaging at Free-Electron Lasers Using TimepixCam'</em>. Journal of Synchrotron Radiation.(2018) 25 https://doi.org/10.1107/S16005775170 </li>")
