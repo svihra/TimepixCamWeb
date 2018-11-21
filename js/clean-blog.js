@@ -37,10 +37,25 @@
         this.previousTop = currentTop;
       });
   }
-
 })(jQuery); // End of use strict
 
 $(function () {
+  // reverse the list
+  // get list type
+  var style = $('#applicationlist').attr("style");
+  // count the total number of <li>'s
+  var count = $('#applicationlist li').length;
+  // loop through each <li> and set value to a decreasing value of count
+  $('#applicationlist li').each(function() {
+      $(this).attr("value", count--);
+      if ($(this).attr("id") == style) {
+        $(this).show();
+      }
+      else {
+        $(this).hide();
+      }
+  });
+
   // reverse the list
   // count the total number of <li>'s
   var count = $('#combinedlist li').length;
